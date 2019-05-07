@@ -33,5 +33,7 @@ public class TareaImpl extends TareaBaseImpl {
 	 * Never reference this class directly. All methods that expect a tarea model instance should use the {@link es.curso.model.Tarea} interface instead.
 	 */
 	public TareaImpl() {
+		
 	}
+	public void hansel () {}
 }
