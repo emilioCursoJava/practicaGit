@@ -2,4 +2,4 @@
 
 <p>
 	<b><liferay-ui:message key="gradleprojectweb.caption"/></b>
-</p>asdfasdfxD
+</p>asdfasdflol
