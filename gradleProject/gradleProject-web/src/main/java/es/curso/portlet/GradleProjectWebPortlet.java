@@ -1,12 +1,8 @@
 package es.curso.portlet;
 
-import es.curso.constants.GradleProjectWebPortletKeys;
-import es.curso.service.TareaLocalServiceUtil;
-
 import com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet;
 
 import java.io.IOException;
-import java.util.List;
 
 import javax.portlet.Portlet;
 import javax.portlet.PortletException;
@@ -14,6 +10,8 @@ import javax.portlet.RenderRequest;
 import javax.portlet.RenderResponse;
 
 import org.osgi.service.component.annotations.Component;
+
+import es.curso.constants.GradleProjectWebPortletKeys;
 
 /**
  * @author emilio89
