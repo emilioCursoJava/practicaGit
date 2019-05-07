@@ -7,4 +7,5 @@ public class GradleProjectWebPortletKeys {
 
 	public static final String GradleProjectWeb = "gradleprojectweb";
 
+	public void jose ( ) {}
 }
