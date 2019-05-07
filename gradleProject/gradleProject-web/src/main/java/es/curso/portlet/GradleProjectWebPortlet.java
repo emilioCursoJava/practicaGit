@@ -31,6 +31,10 @@ import es.curso.constants.GradleProjectWebPortletKeys;
 )
 public class GradleProjectWebPortlet extends MVCPortlet {
 	
+	public void pruebaNuevaRama (RenderRequest renderRequest, RenderResponse renderResponse) throws IOException, PortletException
+	{
+		super.render(renderRequest, renderResponse);
+		}
 	
 	public void render (RenderRequest renderRequest, RenderResponse renderResponse) throws IOException, PortletException {		
 		System.out.println("ENTRA EN RENDER" );
