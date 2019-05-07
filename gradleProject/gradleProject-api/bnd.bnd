@@ -1,0 +1,10 @@
+Bundle-Name: gradleProject-api
+Bundle-SymbolicName: es.curso.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	es.curso.exception,\
+	es.curso.model,\
+	es.curso.service,\
+	es.curso.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../gradleProject-service/service.xml

@@ -1,0 +1,1 @@
+include "gradleProject-api", "gradleProject-service", "gradleProject-web"
